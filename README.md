@@ -36,7 +36,6 @@ Le projet s'appuie sur un modèle de données logistiques comprenant :
 └─────────────┘ └─────────────┘
 │
 │
-▼
 ┌─────────────┐ ┌─────────────┐
 │ livraisons │──────│ regions │
 └─────────────┘ └─────────────┘
