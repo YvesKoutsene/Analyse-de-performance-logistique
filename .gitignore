@@ -1,0 +1,22 @@
+# Data Files
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# Power BI
+*.pbix
+!*.pbit
+# On garde les fichiers de template .pbit si besoin, mais on ignore les .pbix lourds par défaut
+# Supprime la ligne ci-dessus si tu veux absolument tracker ton fichier Power BI.
+
+# OS & Logs
+.DS_Store
+*.log
+Thumbs.db
+
+# Python & Scripts
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
