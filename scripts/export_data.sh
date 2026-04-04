@@ -7,7 +7,7 @@ DB_NAME="logistique_db"
 DB_USER="postgres"
 OUTPUT_DIR="../data"
 
-echo "🚀 Début de l'exportation des données NexLogix..."
+echo "Début de l'exportation des données NexLogix..."
 
 # Créer le dossier data s'il n'existe pas
 mkdir -p $OUTPUT_DIR
