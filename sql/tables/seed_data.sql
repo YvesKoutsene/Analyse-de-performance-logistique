@@ -1,5 +1,4 @@
 -- Script d'injection de données "VIVANTES" (Storytelling Data)
--- Projet: NexLogix Solutions | Auteur: Jean-Yves
 
 -- 1. Nettoyage
 TRUNCATE TABLE fact_shipments, dim_carriers, dim_customers, dim_regions, dim_products, dim_calendar CASCADE;
