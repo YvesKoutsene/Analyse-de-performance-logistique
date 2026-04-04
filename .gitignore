@@ -1,22 +1,37 @@
-# Data Files
+# --- NexLogix Project GitIgnore ---
+
+# Data Files (Comme spécifié dans le README)
+# On ignore les données brutes car elles peuvent être volumineuses
 data/*.csv
 data/*.xlsx
 data/*.json
+data/*.parquet
 
-# Power BI
-*.pbix
-!*.pbit
-# On garde les fichiers de template .pbit si besoin, mais on ignore les .pbix lourds par défaut
-# Supprime la ligne ci-dessus si tu veux absolument tracker ton fichier Power BI.
+# Power BI 
+# On AUTORISE les .pbix pour ce projet portfolio (pour que le travail soit visible)
+# Mais on ignore les fichiers temporaires de récupération
+*.tmp
+*.copy
+*.zip
 
-# OS & Logs
-.DS_Store
+# SQL
+# On ne met jamais de fichiers de dump ou de logs SQL
+*.sql.gz
+*.sql.bak
 *.log
-Thumbs.db
 
-# Python & Scripts
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python & Environnement
 __pycache__/
 *.pyc
 .env
 .venv/
 venv/
+env/
+dist/
+build/
