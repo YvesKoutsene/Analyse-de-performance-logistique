@@ -1,5 +1,4 @@
 -- Script de création du schéma en étoile pour NexLogix Solutions
--- Auteur: Jean-Yves (Data Analyst)
 
 -- 1. Nettoyage (Optionnel, utile pour les tests)
 DROP TABLE IF EXISTS fact_shipments CASCADE;
