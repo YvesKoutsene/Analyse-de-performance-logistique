@@ -6,8 +6,8 @@ Ce projet est une solution complète d'analyse de données logistiques visant à
 ---
 
 ## 📊 Aperçu du Dashboard (NexLogix)
-![Dashboard Performance Logistique](docs/img/dashboard_final.png)
-*(Note: Capture d'écran du rapport Power BI Desktop final)*
+![Dashboard Performance Logistique](docs/img/Dashboard%20par%20défaut.png)
+*(Note: Aperçu du rapport Power BI Desktop final)*
 
 ---
 
