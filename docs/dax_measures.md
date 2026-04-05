@@ -1,4 +1,4 @@
-# 🧠 Guide des Mesures DAX – NexLogix
+# Guide des Mesures DAX – NexLogix
 
 Ce guide répertorie les mesures DAX à créer dans Power BI Service pour piloter la performance logistique.
 

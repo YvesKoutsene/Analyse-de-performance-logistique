@@ -1,5 +1,4 @@
 -- Script de création du schéma en étoile pour NexLogix Solutions
--- Auteur: Jean-Yves (Data Analyst)
 
 -- 1. Nettoyage (Optionnel, utile pour les tests)
 DROP TABLE IF EXISTS fact_shipments CASCADE;
@@ -43,7 +42,7 @@ CREATE TABLE dim_products (
     unit_weight_kg DECIMAL(10, 2)
 );
 
--- Table Calendrier (Indispensable pour l'intelligence temporelle)
+-- Table Calendrier 
 CREATE TABLE dim_calendar (
     date_key DATE PRIMARY KEY,
     year INT,
